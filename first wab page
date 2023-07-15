@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background: gray;
+            padding: 0;
+            margin: 0;
+        }
+        #box1{
+            background: azure;
+            height: 600px;
+            width: 1000px;
+            margin: 0 auto;
+        }
+        #box2{
+            background-color:rgb(255, 64, 6);
+            height: 100px;
+        }
+        #box2 h1{
+            padding: 30px 0 0 10px;
+        }
+        #box3{
+            background-color: aquamarine;
+        }
+        #box3 li{
+            display: inline-block;
+            margin: 5px;
+        }
+        #box3 ul{
+            margin: 0;
+            padding: 0;
+        }
+        #box3 a{
+            padding: 5px;
+            margin: 5px;
+            color: black;
+            text-decoration: none;
+        }
+        #box3 a:hover{
+            background-color: rgb(247, 47, 12);
+            color: white;
+        }
+        #box4{
+            width: 800px;
+            float: left;
+            min-height: 450px;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+        #box5{
+            width: 200px;
+            float: right;
+            background-color: rgb(211, 214, 243);
+            min-height: 450px;
+        }
+        #box5 a{
+            color: black;
+            text-decoration: none;
+        }
+        #box6{
+             clear: both;
+             background-color: orangered;
+             padding: 5px 10px;
+             text-align: right;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div id="box2"><h1>Fast Wab Page Dagine</h1></div>
+        <div id=box3>
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">gallery</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">cotact us</a></li>
+            </ul>
+            
+        </div>
+        <div id="box4">
+            <h2>sub hadding</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quidem, vitae voluptatibus temporibus aliquam dolores doloribus fuga illum natus dolor commodi ea porro rerum nisi animi fugiat assumenda nesciunt incidunt. Assumenda, harum, error, magnam doloribus fuga animi laudantium molestiae a ab consectetur omnis impedit! Eos aspernatur eligendi voluptatem rem velit voluptates possimus maiores totam minus similique temporibus facere laborum excepturi qui dolores, quos ipsam itaque assumenda magni, dolor consectetur illo. Corrupti rerum culpa molestias fuga, aspernatur fugiat voluptate et quas ea voluptatem quidem incidunt natus reprehenderit nam maxime repudiandae dolores quisquam quam, quo inventore maiores illo ratione! Illum, distinctio adipisci!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quidem, vitae voluptatibus temporibus aliquam dolores doloribus fuga illum natus dolor commodi ea porro rerum nisi animi fugiat assumenda nesciunt incidunt. Assumenda, harum, error, magnam doloribus fuga animi laudantium molestiae a ab consectetur omnis impedit! Eos aspernatur eligendi voluptatem rem velit voluptates possimus maiores totam minus similique temporibus facere laborum excepturi qui dolores, quos ipsam itaque assumenda magni, dolor consectetur illo. Corrupti rerum culpa molestias fuga, aspernatur fugiat voluptate et quas ea voluptatem quidem incidunt natus reprehenderit nam maxime repudiandae dolores quisquam quam, quo inventore maiores illo ratione! Illum, distinctio adipisci!</p>
+
+        </div>
+        <div id="box5"><ul>
+            <li><a href="">home</a></li>
+            <li><a href="">gallery</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">cotact us</a></li>
+        </ul></div>
+        <div id="box6">
+            suvam@nocopyright 2023.
+        </div>
+    </div>
+</body>
+</html>
